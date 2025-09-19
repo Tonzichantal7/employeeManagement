@@ -4,8 +4,8 @@ public class Programmer extends Employee {
     Double totalSalary;
     Programmer(Double workHours, int hourlyRate) throws Exception{
         super();
-        if(workHours<0 || hourlyRate<0){
-            throw new Exception("work hours and hourly rate should be positive");
+        if(workHours < 0 || hourlyRate<0){
+            throw new Exception("work hours and hourly rate should be positive");g
         }
 
         this.workHours=workHours;
