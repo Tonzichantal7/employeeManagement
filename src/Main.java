@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         try {
-            Programmer programmer = new Programmer(10.2, 10);
+            Programmer programmer = new Programmer(10.3, 9);
             programmer.displayInfo();
             programmer.calculateSalary();
             System.out.println("Total salary: " + programmer.totalSalary);
